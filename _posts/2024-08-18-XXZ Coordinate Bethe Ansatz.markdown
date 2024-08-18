@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title:  "Coordinate Bethe Ansatz for the Heisenberg XXZ Spin Chain"
-date:   2024-08-18
+date:   2024-08-18 -0700
 categories: jekyll update
 ---
 
