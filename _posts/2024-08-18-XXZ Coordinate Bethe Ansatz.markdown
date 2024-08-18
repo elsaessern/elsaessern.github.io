@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coordinate Bethe Ansatz for the Heisenberg XXZ Spin Chain"
+title:  "Diagonalizing the XXZ Spin Chain Hamiltonian"
 date:   2024-08-18
 categories: jekyll update
 ---
