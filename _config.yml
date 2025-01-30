@@ -23,7 +23,7 @@ repository               : "elsaessern/elsaessern.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_image.heic"
   name             : "Nikolaus Elsaesesr"
   pronouns         : "he/him"  
   bio              : "I am a 3rd year mathematics PhD student at Oregon State University. My current research interests fall in the realm
