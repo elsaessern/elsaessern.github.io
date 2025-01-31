@@ -214,11 +214,10 @@ kramdown:
   enable_coderay: false
 
 # mathJax changes to assist TeX use
-window.MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
   }
-};
+
 
 
 # These settings control the types of collections used by the template
