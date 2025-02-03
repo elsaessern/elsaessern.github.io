@@ -45,7 +45,7 @@ where \\(Y=(y_1,\ldots,y_N)\\) denotes the intial configuration of particles,
 the indicator functions, \delta, is modulo \\(L\\), and \\(u_Y(X;t) = \mathbb{P}_Y(X;t)\\) is the probability of configuration \\(X\\) at time \\(t\\). With the initial condition 
 
 $$\begin{equation}
-    u_Y(X;0)=\mathds{1}(X=Y), \hspace{0.25cm} \forall X\in\mathcal{X}_N(L),
+    u_Y(X;0)=\delta(X=Y), \hspace{0.25cm} \forall X\in\mathcal{X}_N(L),
 \end{equation} $$
 
 \\(u_Y(X;t)\\) is uniquely determined by the forward equation. To construct the forward equation, knowing that the recipe for the forward equation is
