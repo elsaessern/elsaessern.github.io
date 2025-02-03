@@ -52,11 +52,13 @@ $$\begin{equation}
 
 $$\frac{d}{dt}Prob(\text{state }x;t) = \text{Prob. going into state }x - \text{Prob. going out of state }x $$ 
 
-is quite helpful. Let's construct the case for two particles to see how this works. 
+is quite helpful. Let's take a look at how this construction works. 
 
-
-Constructing the forward equation with N=2 particles
+Constructing the forward equation 
 ------
 
+If we focus on the dynamics of a single particle, there are only two ways that a particle can be prevented from jumping: either it has a neighboring particle on the left, or it has a neighboring particle on the right. So our probability of moving into an arbitrary state \\( X=(x_1,\ldots,x_i,\ldots,x_N) \\) when particle \\( i \\) jumps is the probability of it jumping right \\( p u(X_i^- ; t)\delta(x_{i-1} \neq x_{i} - 1) \\)  and jumping left \\( q u(X_i^+ ; t)\delta(x_{i+1}\neq x_i + 1) \\) with the conditions that in state \\( X \\) there is not a particle directly to the left or right of the \\( i \\)'th particle. 
+<img src='/images/ASEPprobin.jpeg' style="width:400px;height:200px;"> 
+Figure 2: The possible cases where the system can move into state \\( X \\) and the exclusion conditions marked with a red x on the jump arrow. 
 
 
