@@ -15,7 +15,10 @@ The Asymmetric Exclusion Process
 
 Consider a chain of particles on a discrete ring (see figure 1) which move left and right with probabilities \\(q\\) and \\(p\\), respectively, with \\(p+q=1.\\) Each particle on its own is a random walker, but what happens when two particles encounter the same lattice site? In defining this model, one can come up with several different kinds of interaction rules. Perhaps a particle moving into the occupied site is a bully and pushes the occupying particle over into the neighboring site. Maybe the particles coexist and  sit together on the same site. It could be that the particles merge into a single particle. The possibilities are endless, with each yielding its own unique set of questions. In this post, we will be discussing a **simple exclusion process**, where a particle is prevented from moving into an occupied site. In particular, our jumping rates will be unequal (\\(p\neq q\\)), giving us the name: the **Asymmetric Simple Exclusion Process (ASEP)**. 
 
-![figure 1]: ../images/ASEP_ring_illustration.png{: height="36px" width="36px"}
+![figure 1]
+
+[figure 1]: ../images/ASEP_ring_illustration.png
+{: height="36px" width="36px"}
 
 While the relatively easy-to-describe rules governing ASEP are lovely, it's widely known that a many-body system with simple local rules is not always amenable to achieving exact mathematical expressions which can fully describe the system. Describing the system in the sense that for a random process we'd like to answer questions regarding its underlying probability distribution. Moreover, we'd like to understand the **asymptotics** of the system. What happens to the system after a really long period of time? When the size of the lattice and number of particles get infinitely large? Answering these questions may provide evidence (or better yet, mathematical proof) that there is some kind of **universality** driving the behavior of the macroscopic system that bears no resemblance to the microscopic rules which define it. And if this is the case, does it yield the same universal behavior as other models which seemingly describe entirely different systems? While addressing these questions may not be easy, finding analytical[^1] formulas for the model provides a first step towards asymptotics. 
 
