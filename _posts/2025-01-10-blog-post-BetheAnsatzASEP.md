@@ -33,16 +33,16 @@ Our dynamics are governed by the forward equation
 
 $$\begin{equation*}
     \begin{split}
-        \frac{d}{dt}u_Y(X;t) = \sum_{i=1}^{N}&pu_Y(X_i^-;t)\mathds{1}(x_i \neq x_{i-1}+1) 
-     + qu_Y(X_i^-;t)\mathds{1}(x_i \neq x_{i+1} - 1) \\
-     - &pu_Y(X_i;t)\mathds{1}(x_i\neq x_{i+1}-1) 
-     - qu_Y(X_i;t)\mathds{1}(x_i \neq x_{i-1}+1)
+        \frac{d}{dt}u_Y(X;t) = \sum_{i=1}^{N}&pu_Y(X_i^-;t)\delta(x_i \neq x_{i-1}+1) 
+     + qu_Y(X_i^-;t)\delta(x_i \neq x_{i+1} - 1) \\
+     - &pu_Y(X_i;t)\delta(x_i\neq x_{i+1}-1) 
+     - qu_Y(X_i;t)\delta(x_i \neq x_{i-1}+1)
     \end{split}
 \end{equation*}$$
 
 where \\(Y=(y_1,\ldots,y_N)\\) denotes the intial configuration of particles, 
 \ \\(X_i^{\pm} = (x_1,\ldots,x_{i-1},x_i\pm1,x_{i+1},\ldots,x_N) \\), equality in 
-the indicator functions is modulo \\(L\\), and \\(u_Y(X;t) = \mathbb{P}_Y(X;t)\\) is the probability of configuration \\(X\\) at time \\(t\\). With the initial condition 
+the indicator functions, \delta, is modulo \\(L\\), and \\(u_Y(X;t) = \mathbb{P}_Y(X;t)\\) is the probability of configuration \\(X\\) at time \\(t\\). With the initial condition 
 
 $$\begin{equation}
     u_Y(X;0)=\mathds{1}(X=Y), \hspace{0.25cm} \forall X\in\mathcal{X}_N(L),
@@ -57,3 +57,6 @@ is quite helpful. Let's construct the case for two particles to see how this wor
 
 Constructing the forward equation with N=2 particles
 ------
+
+
+
