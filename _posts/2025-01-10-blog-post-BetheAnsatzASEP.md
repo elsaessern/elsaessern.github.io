@@ -58,11 +58,11 @@ Constructing the forward equation
 ------
 
 If we focus on the dynamics of a single particle, there are only two ways that a particle can be prevented from jumping: either it has a neighboring particle on the left, or it has a neighboring particle on the right. So our probability of moving into an arbitrary state \\( X=(x_1,\ldots,x_i,\ldots,x_N) \\) when particle \\( i \\) jumps is the probability of it jumping right \\( p u(X_i^- ; t)\delta(x_{i-1} \neq x_{i} - 1) \\)  and jumping left \\( q u(X_i^+ ; t)\delta(x_{i+1}\neq x_i + 1) \\) with the conditions that in state \\( X \\) there is not a particle directly to the left or right of the \\( i \\)'th particle. 
-<img src='/images/ASEPprobin.jpeg' style="width:400px;height:250px;"> 
+<img src='/images/ASEPprobin.jpeg' style="object-fit:contain;width:400px;height:250px"> 
 
 Figure 2: The possible cases where the system can move into state \\( X \\) and the exclusion conditions marked with a red x on the jump arrow. 
 
 Similarly, our probability of moving out of an arbitrary state \\( X \\) when the \\( i \\)'th particle jumps is the probability of it jumping left \\( q u(X;t)\delta(x_{i-1} \neq x_i - 1) \\) and jumping right \\( p u(X;t)\delta(x_{i+1}\neq x_i + 1) \\) provided there aren't particles blocking it to the left and right, respectively. 
-<img src='/images/ASEPprobout.jpeg' style="width:400px;height:250px;"> 
+<img src='/images/ASEPprobout.jpeg' style="object-fit:contain;width:400px;height:250px;"> 
 
-
+Figure 3: The possible cases where the system can move out of state \\( X \\) and the exclusion conditions marked with a red x on the jump arrow. 
