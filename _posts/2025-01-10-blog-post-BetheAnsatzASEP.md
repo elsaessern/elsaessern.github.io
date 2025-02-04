@@ -70,6 +70,7 @@ Similarly, our probability of moving out of an arbitrary state \\( X \\) when th
 Figure 3: The possible cases where the system can move out of state \\( X \\) with exclusion conditions. 
 
 So following our probability in \\( - \\) probability out formula for the forward equation, we get 
+
 $$
 \begin{split}
 \frac{d}{dt}u_Y(X;t) &= \sum_{i=1}^N p u(X_i^- ; t)\delta(x_{i-1} \neq x_{i} - 1) + q u(X;t)\delta(x_{i-1} \neq x_i - 1) \\
@@ -77,5 +78,10 @@ $$
 \end{split}
 $$
 
-where the sum is over all \\( N \\) particles. 
+where the sum is over all \\( N \\) particles. Now, if we can solve the forward equation exactly and satisfy the initial condition, then we have the unique probability function which describes our entire system. To do this, though, we will use an equivalent formalism which splits our forward equation into a 'free' part which contains the non-interaction of particles, and a 'boundary' condition which contains the interacting component.  
+
+The free equation
+------
+
+
 
