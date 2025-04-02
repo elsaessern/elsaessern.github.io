@@ -1,7 +1,7 @@
 ---
 title: 'Intro to the Bethe Ansatz and ASEP'
 date: 2025-01-10
-permalink: /posts/2025/01/blog-post-1/
+permalink: /posts/2025/01/blog-post-ASEP/
 tags:
   - ASEP
   - Bethe Ansatz
