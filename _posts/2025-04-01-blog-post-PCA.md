@@ -1,6 +1,6 @@
 ---
 title: 'Principal component analysis for differentiating gasotransmitters'
-date: 2025-04-02
+date: 2025-04-01
 permalink: /posts/2025/04/blog-post-PCA/
 tags:
   - PCA
