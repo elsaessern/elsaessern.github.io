@@ -46,6 +46,6 @@ $$ \begin{equation*}
     \begin{split}
       \mathcal{H} &= \sum_{i=1}^L h_{i,i+1}(\Delta) \\
       h_{i,j}(\Delta) &= S_i^x S_j^x + S_i^y S_j^y + \Delta( S_i^z S_j^z - 1/2)
-      \end{split
+      \end{split}
     \end{equation*}
 $$
