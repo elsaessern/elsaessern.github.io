@@ -21,8 +21,9 @@ XXZ Spin-1/2 Chain on the Ring
 Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
 $$\begin{equation*}
 \begin{split}
-      S_j^\alpha = \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id}\right) \\
-\sigma^x = \begin{pmatrix}
+      S_j^\alpha &= \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id}\right) \\
+      \\
+\sigma^x &= \begin{pmatrix}
          0 & 1 \\
          1 & 0
     \end{pmatrix},\quad \sigma^y = \begin{pmatrix}
@@ -35,8 +36,16 @@ $$\begin{equation*}
     \end{split}
   \end{equation*}
 $$
+
 which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L} \\), of a 2D complex vector space with a basis given by spin up and down labels \\(\mathbb{V}=\mathrm{Span}\{ \mid \uparrow \rangle, \mid \downarrow \rangle \} \\). For example, the basis of $\mathbb{V}_2$ is given by 
 $$\begin{equation*}
     \mid \uparrow \rangle \otimes \mid \uparrow \rangle = \mid \uparrow \uparrow \rangle,\, \mid \uparrow \rangle \otimes \mid \downarrow \rangle = \mid \uparrow \downarrow \rangle,\, \mid \downarrow \rangle \otimes \mid \uparrow \rangle = \mid \downarrow \uparrow \rangle,\, \mid \downarrow \rangle \otimes \mid \downarrow \rangle = \mid \downarrow \downarrow \rangle.
 \end{equation*}$$
-The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product. 
+The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product. The Hamiltonian operator, \\( \mathcal{H} \\), acts on basis vectors and its eigenvalues give the energy of the system. The Hamiltonian for the XXZ spin chain is defined as 
+$$ \begin{equation*} 
+    \begin{split}
+      \mathcal{H} &= \sum_{i=1}^L h_{i,i+1}(\Delta) \\
+      h_{i,j}(\Delta) &= S_i^x S_j^x + S_i^y S_j^y + \Delta( S_i^z S_j^z - 1/2)
+      \end{split
+    \end{equation*}
+$$
