@@ -31,8 +31,7 @@ $$ \begin{equation*}
     \end{pmatrix},\quad \sigma^z = \begin{pmatrix}
          1 & 0 \\\
          0 & -1
-    \end{pmatrix}
-      \end{split}
+    \end{pmatrix} \end{split}
     \end{equation*} $$
 which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L} \\), of a 2D complex vector space with a basis given by spin up and down labels \\(\mathbb{V}=\mathrm{Span}\{ \mid \uparrow \rangle, \mid \downarrow \rangle \} \\). For example, the basis of $\mathbb{V}_2$ is given by 
 $$\begin{equation*}
