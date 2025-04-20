@@ -19,9 +19,9 @@ XXZ Spin-1/2 Chain on the Ring
 ----------
 
 Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
-$$ \begin{equation*}
+$$
       S_j^\alpha = \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} 
-    \end{equation*} $$
+$$
 $$
 \sigma^x = \begin{pmatrix}
          0 & 1 \\\
@@ -38,4 +38,4 @@ which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L}
 $$\begin{equation*}
     \mid \uparrow \rangle \otimes \mid \uparrow \rangle = \mid \uparrow \uparrow \rangle,\, \mid \uparrow \rangle \otimes \mid \downarrow \rangle = \mid \uparrow \downarrow \rangle,\, \mid \downarrow \rangle \otimes \mid \uparrow \rangle = \mid \downarrow \uparrow \rangle,\, \mid \downarrow \rangle \otimes \mid \downarrow \rangle = \mid \downarrow \downarrow \rangle.
 \end{equation*}$$
-The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product.
+The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product. 
