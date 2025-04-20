@@ -21,16 +21,16 @@ XXZ Spin-1/2 Chain on the Ring
 Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
 $$\begin{equation*}
       \begin{split}
-      S_j^\alpha &= \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \\
-      \sigma^x &= \begin{pmatrix}
-         0& 1 \\
-         1& 0
+      S_j^\alpha = \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \\
+      \sigma^x = \begin{pmatrix}
+         0 & 1 \\
+         1 & 0
     \end{pmatrix},\quad \sigma^y = \begin{pmatrix}
-         0& -i \\
-         i& 0
+         0 & -i \\
+         i & 0
     \end{pmatrix},\quad \sigma^z = \begin{pmatrix}
-         1& 0 \\
-         0& -1
+         1 & 0 \\
+         0 & -1
     \end{pmatrix}
       \end{split}
     \end{equation*}$$
