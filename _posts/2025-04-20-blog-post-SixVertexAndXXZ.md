@@ -15,6 +15,7 @@ XXZ Quantum Spin Chain & The Six Vertex Model
 
 What does a model for the possible orientations of hydrogen and oxygen atoms on a sheet of ice have to do with a toy model for magnetism on a chain? Although the original aim for both of these models were describing different things, molecular structure of ice and magnetism, they are intimately related via their mathematical construction. In particular, the operators that govern the dynamics of each model commute, and thus share the same eigenvectors. 
 
-XXZ Spin-1/2 Chain
+XXZ Spin-1/2 Chain on the Ring
 ----------
 
+Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \)\
