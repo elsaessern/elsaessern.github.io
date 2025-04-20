@@ -22,19 +22,16 @@ Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite 
 $$\begin{equation*}
       \begin{split}
       S_j^\alpha &= \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \\
-      \sigma^x &= \left(\begin{array}{cc}
+      \sigma^x &= \begin{pmatrix}
          0& 1 \\
          1& 0
-    \end{array}\right),\quad
-    \sigma^y = \left(\begin{array}{cc}
+    \end{pmatrix},\quad \sigma^y = \begin{pmatrix}
          0& -i \\
          i& 0
-    \end{array}\right),\quad
-    \sigma^z = \left(\begin{array}{cc}
+    \end{pmatrix},\quad \sigma^z = \begin{pmatrix}
          1& 0 \\
          0& -1
-    \end{array}\right)
-      
+    \end{pmatrix}
       \end{split}
     \end{equation*}$$
 which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L} \\), of a 2D complex vector space with a basis given by spin up and down labels \\(\mathbb{V}=\mathrm{Span}\{ \mid \uparrow \rangle, \mid \downarrow \rangle \} \\). For example, the basis of $\mathbb{V}_2$ is given by 
