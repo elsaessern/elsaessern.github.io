@@ -20,9 +20,10 @@ XXZ Spin-1/2 Chain on the Ring
 
 Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
 $$ \begin{equation*}
-      \begin{split}
-      S_j^\alpha = \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \\\
-      \sigma^x = \begin{pmatrix}
+      S_j^\alpha = \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id} 
+    \end{equation*} $$
+$$
+\sigma^x = \begin{pmatrix}
          0 & 1 \\\
          1 & 0
     \end{pmatrix},\quad \sigma^y = \begin{pmatrix}
@@ -31,8 +32,8 @@ $$ \begin{equation*}
     \end{pmatrix},\quad \sigma^z = \begin{pmatrix}
          1 & 0 \\\
          0 & -1
-    \end{pmatrix} \end{split}
-    \end{equation*} $$
+    \end{pmatrix}
+$$
 which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L} \\), of a 2D complex vector space with a basis given by spin up and down labels \\(\mathbb{V}=\mathrm{Span}\{ \mid \uparrow \rangle, \mid \downarrow \rangle \} \\). For example, the basis of $\mathbb{V}_2$ is given by 
 $$\begin{equation*}
     \mid \uparrow \rangle \otimes \mid \uparrow \rangle = \mid \uparrow \uparrow \rangle,\, \mid \uparrow \rangle \otimes \mid \downarrow \rangle = \mid \uparrow \downarrow \rangle,\, \mid \downarrow \rangle \otimes \mid \uparrow \rangle = \mid \downarrow \uparrow \rangle,\, \mid \downarrow \rangle \otimes \mid \downarrow \rangle = \mid \downarrow \downarrow \rangle.
