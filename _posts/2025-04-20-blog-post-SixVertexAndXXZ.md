@@ -1,6 +1,6 @@
 ---
 title: 'An unexpected relationship: the mathematical ties of a model for a square sheet of ice and one-dimensional magnetism'
-date: 2025-01-10
+date: 2025-04-20
 permalink: /posts/2025/01/blog-post-XXZ6V/
 tags:
   - XXZ
