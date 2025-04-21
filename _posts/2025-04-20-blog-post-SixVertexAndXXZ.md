@@ -19,6 +19,7 @@ XXZ Spin-1/2 Chain on the Ring
 ----------
 
 Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
+
 $$\begin{equation*}
 \begin{split}
       S_j^\alpha &= \frac{1}{\sqrt{2}}\left(\mathrm{Id} \otimes\cdots \otimes \mathrm{Id} \otimes \sigma^{\alpha} \otimes \mathrm{Id} \otimes\cdots \otimes \mathrm{Id}\right) \\
@@ -46,7 +47,9 @@ The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position
 $$ \begin{equation*} 
     \begin{split}
       \mathcal{H} &= \sum_{i=1}^L h_{i,i+1}(\Delta) \\
-      h_{i,j}(\Delta) &= S_i^x S_j^x + S_i^y S_j^y + \Delta( S_i^z S_j^z - 1/2)
+      h_{i,j}(\Delta) &= S_i^x S_j^x + S_i^y S_j^y + \Delta( S_i^z S_j^z - 1/2) = \mathrm{Id} \otimes\cdots\otimes \begin{pmatrix} 0 & 0 & 0 & 0 \\ 0 & -\Delta & 1 & 0 \\ 0 & 1 & -\Delta & 0 \\ 0 & 0 & 0 & 0 \end{pmatrix} \otimes \cdots \mathrm{Id}
       \end{split}
     \end{equation*}
 $$
+
+with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\matcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$\left\mid \uparrow\uparrow \right\rangle, \left\mid \uparrow\downarrow \right\rangle, \left\mid \downarrow\uparrow \right \rangle, \left\mid \downarrow\downarrow \right\rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
