@@ -4,7 +4,7 @@ collection: teaching
 type: "Recitations & Grading"
 permalink: /teaching/grad-assistant-teaching
 venue: "Oregon State University, Mathematics"
-date: 2022-Present
+date: 2022
 location: "Corvallis, Oregon USA"
 ---
 
