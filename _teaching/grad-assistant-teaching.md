@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Appointments"
 permalink: /teaching/grad-assistant-teaching
 venue: "Oregon State University, Mathematics"
-date: 2022-09-22
+date: 2025-04-21
 location: "Corvallis, Oregon USA"
 ---
 
