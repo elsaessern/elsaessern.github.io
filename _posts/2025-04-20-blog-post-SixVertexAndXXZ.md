@@ -41,7 +41,8 @@ which act on the L-fold tensor product, \\(\mathbb{V}_L = \mathbb{V}^{\otimes L}
 $$\begin{equation*}
     \mid \uparrow \rangle \otimes \mid \uparrow \rangle = \mid \uparrow \uparrow \rangle,\, \mid \uparrow \rangle \otimes \mid \downarrow \rangle = \mid \uparrow \downarrow \rangle,\, \mid \downarrow \rangle \otimes \mid \uparrow \rangle = \mid \downarrow \uparrow \rangle,\, \mid \downarrow \rangle \otimes \mid \downarrow \rangle = \mid \downarrow \downarrow \rangle.
 \end{equation*}$$
-The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product. The Hamiltonian operator, \\( \mathcal{H} \\), acts on basis vectors and its eigenvalues give the energy of the system. The Hamiltonian for the XXZ spin chain is defined as 
+The \\( \sigma^{\alpha} \\) in \\(S_j^\alpha \\) is in the \\( j \\)'th position of the tensor product. The Hamiltonian operator, \\( \mathcal{H} \\), acts on elements of \\( V_L \\) (configurations of L spins) and its spectrum gives the energy levels of the system. The Hamiltonian for the XXZ spin-1/2 chain is defined as 
+
 $$ \begin{equation*} 
     \begin{split}
       \mathcal{H} &= \sum_{i=1}^L h_{i,i+1}(\Delta) \\
