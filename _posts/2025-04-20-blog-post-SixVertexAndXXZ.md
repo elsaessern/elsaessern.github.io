@@ -53,3 +53,5 @@ $$ \begin{equation*}
 $$
 
 with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\matcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$\left\mid \uparrow\uparrow \right\rangle, \left\mid \uparrow\downarrow \right\rangle, \left\mid \downarrow\uparrow \right \rangle, \left\mid \downarrow\downarrow \right\rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
+
+<img src='/images/XXZL9N6.png' style="width:250px;height:200px;">
