@@ -52,7 +52,7 @@ $$ \begin{equation*}
     \end{equation*}
 $$
 
-with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\matcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$ \mid \uparrow\uparrow \rangle, \mid \uparrow\downarrow \rangle, \mid \downarrow\uparrow  \rangle, \mid \downarrow\downarrow \rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
+with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\mathcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$ \mid \uparrow\uparrow \rangle, \mid \uparrow\downarrow \rangle, \mid \downarrow\uparrow  \rangle, \mid \downarrow\downarrow \rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
 
 <img src='/images/XXZL9N6.png' style="width:500px;height:400px;">
 
@@ -68,3 +68,18 @@ For each local configuration, we assign a weight denoted $$ a_1, a_2, b_1, b_2, 
 
 <img src='/images/Configex6V.jpeg.png' style="width:500px;height:500px;">
 
+For a configuration/state $$S$$, we assign the probability 
+
+$$ \begin{equation*}
+Prob(S)=\frac1Z \prod_{(i,j)} weight(i,j;S) 
+\end{equation*} $$
+
+where $$Z$$ is the normalization constant, called the partition function, and the product is over all vertices $$(i,j)$$ in the finite subset of the lattice. For instance, the state in the above example has the following probability: 
+
+$$ \begin{equation*}
+\frac1Z (b_2 \cdot b_2 \cdot a_1 \cdot c_1 \cdot c_1 \cdot a_2) = \frac1Z a_1 \cdot a_2 \cdot b_2^2 \cdot c_1^2
+\end{equation*} $$
+
+Notice that $$Prob(S)$$ can also be written as 
+
+$$ \begin{
