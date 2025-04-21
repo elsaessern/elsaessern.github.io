@@ -60,4 +60,11 @@ with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local o
 Six-Vertex Model
 --------
 
-Originally introduced to compute numerical characteristics of ice, the six-vertex model consists of a square lattice whose vertices represent oxygen atoms and edges represent hydrogen atoms. Since H$$_2$$0 contains two H atoms and one oxygen atom, exactly two H atoms are matched with each O atom. On a square lattice, this leads to six possible configurations (hence the "six-vertex" in the name). 
+Originally introduced to compute numerical characteristics of ice, the six-vertex model consists of a square lattice ($$ \mathbb{Z}^2 $$) whose vertices represent oxygen atoms and edges represent hydrogen atoms. Since H$$_2$$0 contains two H atoms and one oxygen atom, a configuration is when each O atom is matched with exactly two neighboring H atoms. On a square lattice, this leads to six possible local configurations (hence the "six-vertex" in the name) illustrated below. 
+
+<img src='/images/6VConfigs.jpeg.png' style="width:500px;height:200px;">
+
+For each local configuration, we assign a weight denoted $$ a_1, a_2, b_1, b_2, c_1,$$ or $$ c_2 $$ which you can see labeled above. If we restrict to a finite subset of the infinite square lattice $$\mathbb{Z}$$, the configuration space is comprised of local configurations assigned to the vertices which are consistent with each other. For example:
+
+<img src='/images/Configex6V.jpeg.png' style="width:500px;height:500px;">
+
