@@ -1,7 +1,7 @@
 ---
 title: "Graduate Assistantship Teaching Appointments"
 collection: teaching
-type: "Recitations & Grading"
+type: "Teaching Appointments"
 permalink: /teaching/grad-assistant-teaching
 venue: "Oregon State University, Mathematics"
 date: 2022-09-22
