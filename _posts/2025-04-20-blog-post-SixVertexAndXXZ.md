@@ -96,7 +96,7 @@ Since the hydrogen-ion bonds form electric dipoles, we can represent the local c
 
 <img src='/images/6Vdiffreps.png' style="width:500px;height:400px;">
 
-Moreover, we can represent local configurations with lines present if arrows are pointing down or to the left which is the third row of pictures you see above. This last representation gives a nice interpretation of configurations as up-right paths in the square lattice. A priori it is not entirely clear by its construction how the six-vertex model relates to the XXZ spin chain. In the next blog posts we will introduce the *transfer matrix*, $$\mathcal{V}$$, for the six-vertex model and uncover that the XXZ Hamiltonian, $$ \mathcal{H} $$, is actually a logarithmic derivative of $$\mathcal{V}$$. Stay tuned!
+Moreover, we can represent local configurations with lines present if arrows are pointing down or to the left which is the third row of pictures you see above. This last representation gives a nice interpretation of configurations as up-right paths in the square lattice. A priori it is not entirely clear by its construction how the six-vertex model relates to the XXZ spin chain. In the next blog posts we will introduce the *transfer matrix*, $$\mathcal{V}$$, for the six-vertex model and uncover that the XXZ Hamiltonian, $$ \mathcal{H} $$, is effectively a logarithmic derivative of $$\mathcal{V}$$. Stay tuned!
 
 
 [^1]: R. J. Baxter, "Exactly Solved Models in Statistical Mechanics" Academic Press, 1982 Copyright: Rodney J. Baxter 2004
