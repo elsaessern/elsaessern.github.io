@@ -15,10 +15,10 @@ XXZ Quantum Spin Chain & The Six Vertex Model
 
 What does a model for the possible orientations of hydrogen and oxygen atoms on a sheet of ice have to do with a toy model for magnetism on a chain? Although the original aim for both of these models were describing different things, molecular structure of ice and magnetism, they are intimately related via their mathematical construction. In particular, the operators that govern the dynamics of each model commute, and thus share the same eigenvectors. 
 
-XXZ Spin-1/2 Chain on the Ring
+XXZ Spin-1/2 Chain
 ----------
 
-Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in this case periodic). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
+Originally a toy model for magnetism, the XXZ Spin-1/2 chain describes a finite number of quantum spins on a 1D lattice (in our case a periodic lattice). The quantum spin at lattice site \\( j \\) in a chain of length \\( L \\) is described by the operators 
 
 $$\begin{equation*}
 \begin{split}
@@ -52,6 +52,12 @@ $$ \begin{equation*}
     \end{equation*}
 $$
 
-with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\matcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$\left\mid \uparrow\uparrow \right\rangle, \left\mid \uparrow\downarrow \right\rangle, \left\mid \downarrow\uparrow \right \rangle, \left\mid \downarrow\downarrow \right\rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
+with $$\Delta\in\mathbb{R}$$. A property of great importance is that the local operator $$h_{i,i+1}(\Delta)$$ conserves the number of up-spins (consequently also the down-spins) and hence the hamiltonian $$\matcal{H}$$ also conserves the number of up/down-spins. It is a nice exercise to check this property if you are unfamiliar with spin chains (note that the four columns/rows in the matrix of the $$i$$ and $$i+1$$ locations in the tensor product of $$h_{i,i+1}$$ correspond to $$ \mid \uparrow\uparrow \rangle, \mid \uparrow\downarrow \rangle, \mid \downarrow\uparrow  \rangle, \mid \downarrow\downarrow \rangle$$ in that order which are the basis vectors of the $$i$$ and $$i+1$$ neighboring spins). This conservation of spin leads us to consider subspaces of $$V_L$$ which correspond to a fixed number of up-spins $$N$$ ($$L-N$$ down-spins). Here is a quick illustration of a chain of length $$ L=9 $$ and number of up-spins $$ N=6 $$ with an example of the local operator for the 4th and 5th spin sites.  
 
-<img src='/images/XXZL9N6.png' style="width:250px;height:200px;">
+<img src='/images/XXZL9N6.png' style="width:500px;height:400px;">
+
+
+Six-Vertex Model
+--------
+
+Originally introduced to compute numerical characteristics of ice, the six-vertex model consists of a square lattice whose vertices represent oxygen atoms and edges represent hydrogen atoms. Since H$$_2$$0 contains two H atoms and one oxygen atom, exactly two H atoms are matched with each O atom. On a square lattice, this leads to six possible configurations (hence the "six-vertex" in the name). 
