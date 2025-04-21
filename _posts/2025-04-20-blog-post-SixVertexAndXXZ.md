@@ -9,11 +9,12 @@ tags:
   - Integrable Probability
 ---
 
+What does a model for the possible orientations of hydrogen and oxygen atoms on a sheet of ice have to do with a toy model for magnetism on a chain? Although the original aim for both of these models were describing different things, molecular structure of ice and magnetism, they are intimately related via their mathematical construction. In particular, the operators that govern the dynamics of each model commute, and thus share the same eigenvectors.
 
 XXZ Quantum Spin Chain & The Six Vertex Model
 ==========
 
-What does a model for the possible orientations of hydrogen and oxygen atoms on a sheet of ice have to do with a toy model for magnetism on a chain? Although the original aim for both of these models were describing different things, molecular structure of ice and magnetism, they are intimately related via their mathematical construction. In particular, the operators that govern the dynamics of each model commute, and thus share the same eigenvectors. 
+The following discussion and notes are based on the contents of [^1],[^2],[^3],[^4]. I encourage the interested reader to dive into these sources and the references therein for additional insight, rigor, and enjoyable mathematics.  
 
 XXZ Spin-1/2 Chain
 ----------
@@ -82,4 +83,23 @@ $$ \begin{equation*}
 
 Notice that $$Prob(S)$$ can also be written as 
 
-$$ \begin{
+$$ \begin{equation*}
+\frac1Z (a_1^{n(a_1)}\cdot a_2^{n(a_2)} \cdot b_1^{n(b_1)} \cdot b_2^{n(b_2)} \cdot c_1^{n(c_1)} \cdot c_2^{n(c_2)})
+\end{equation*} $$
+
+where $$n(v)=$$ #vertices of type $$v$$. 
+
+Another representation of six-vertex configurations
+----
+
+Since the hydrogen-ion bonds form electric dipoles, we can represent the local configurations with arrows pointing towards the vertex if an H atom is present and away from the vertex otherwise (see illustration below). 
+
+<img src='/images/6Vdiffreps.png' style="width:500px;height:400px;">
+
+Moreover, we can represent local configurations with lines present if arrows are pointing down or to the left which is the third row of pictures you see above. This last representation gives a nice interpretation of configurations as up-right paths in the square lattice. A priori it is not entirely clear by its construction how the six-vertex model relates to the XXZ spin chain. In the next blog posts we will introduce the *transfer matrix*, $$\mathcal{V}$$, for the six-vertex model and uncover that the XXZ Hamiltonian, $$ \mathcal{H} $$, is actually a logarithmic derivative of $$\mathcal{V}$$. Stay tuned!
+
+
+[^1]: R. J. Baxter, "Exactly Solved Models in Statistical Mechanics" Academic Press, 1982 Copyright: Rodney J. Baxter 2004
+[^2]: https://www.ams.org/journals/bull/2025-62-02/S0273-0979-2025-01846-7/S0273-0979-2025-01846-7.pdf
+[^3]: https://arxiv.org/pdf/1611.09909
+[^4]: John Parkinson, Damian J J Farnell, "An Introduction to Quantum Spin Systems" Springer-Verlag Berlin Heidelberg 2010
