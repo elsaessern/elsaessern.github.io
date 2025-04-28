@@ -1,6 +1,6 @@
 ---
 title: 'The Six-Vertex Model & XXZ Quantum Spin Chain part 2'
-date: 2025-04-20
+date: 2025-04-28
 permalink: /posts/2025/01/blog-post-XXZ6Vpt2/
 tags:
   - XXZ
