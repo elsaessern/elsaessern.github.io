@@ -146,7 +146,7 @@ V_0^{-1}\delta V &= c_0^{-1}\sum_{j=1}^N \frac{(\delta a+ \delta c)}{2}Id + \del
 &= \delta b \sum_{j=1}^N S_j^x S_{j+1}^x + S_{j}^y S_{j+1}^y + \Delta(S_j^z S_{j+1}^z - \frac12)
 \end{split}\end{equation}$$
 
-when $\delta a = 0$ and $\Delta = -\frac{\delta c}{2 \delta b}. And hence with these parameters 
+when $$\delta a = 0$$ and $$\Delta = -\frac{\delta c}{2 \delta b}$$. And hence with these parameters 
 
 $$\begin{equation}
 \frac{V_0^{-1}\delta V}{\delta b} = \mathcal{H}.
