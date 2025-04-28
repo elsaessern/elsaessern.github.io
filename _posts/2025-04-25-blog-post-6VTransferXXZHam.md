@@ -19,8 +19,7 @@ We first recall the arrow representation of the six possible vertex configuratio
 
 <img src='/images/6VArrows.png' style="width:500px;height:200px;">
 
-For a finite subset of our square lattice (let's say M rows x N columns), we impose the 'ice-rule' which means each vertex must have exactly two of its adjacent edges pointing up or to the right and the other two pointing down or to the left (equivalently, two of the adjacent arrows must point towards the vertex and two must point away from the vertex)[^1]. 
-This is what restricts us to the six local configurations. We will also impose toroidal boundary conditions which means the bottom & top edges and left & right edges are identified with each other respectively. Below is an example of a 4x5 configuration satisfying the ice-rule. 
+For a finite subset of our square lattice (let's say M rows x N columns), we impose the 'ice-rule' which means for each vertex two of the adjacent arrows must point towards the vertex and two must point away from the vertex[^1]. This is what restricts us to the six local configurations. We will also impose toroidal boundary conditions which means the bottom & top edges and left & right edges are identified with each other respectively. Below is an example of a 4x5 configuration satisfying the ice-rule. 
 
 <img src='/images/6Vex.png' style="width:500px;height:400px;">
 
