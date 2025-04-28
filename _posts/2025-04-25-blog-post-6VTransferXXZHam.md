@@ -112,9 +112,10 @@ where
 $$\begin{equation}
 (s_j)_{\mathbf{\alpha}\mathbf{\beta}} = \alpha_j \delta(\alpha_1,\beta_1)\delta(\alpha_2,\beta_2)\cdots \delta(\alpha_N,\beta_N)
 \end{equation}$$
-and
-$$\begin{equation}
 
+and
+
+$$\begin{equation}
 (c_j)_{\mathbf{\alpha}\mathbf{\beta}} = \delta(\alpha_1,\beta_1)\cdots \delta(\alpha_{j-1},\beta_{j-1}) \delta(\alpha_j,-\beta_j)\delta(\alpha_{j+1},\beta_{j+1})\cdots\delta(\alpha_N,\beta_N).
 \end{equation}$$
 
