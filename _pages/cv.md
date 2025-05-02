@@ -16,10 +16,23 @@ Education
 
 Work experience
 ======
-* Spring 2025: Graduate Research Assistant
+* Fall 2023, Spring 2025: Graduate Research Assistant
   * Oregon State University, Department of Mathematics
-  * Duties include:
   * Advisor: Axel Saenz-Rodriguez
+* Summer 2024: Graduate Research Assistant
+  * Oregon State University, Department of Electrical Engineering & Computer Science
+  * Advisor: Cory Simon
+* Fall 2022-Summer 2024, Winter 2024-Winter 2025: Graduate Teaching Assistant
+  * Oregon State University, Department of Mathematics
+* 2021-2022: Grader
+  * Santa Clara University, Department of Mathematics
+* Summer 2021: Mathematics Research Fellow
+  * REAL program, Santa Clara University
+  * Advisors: Sara Krehbiel, Howard Levinson
+* Summer 2020: Financial Analyst Intern
+  * Liveramp
+* Summer 2019: Research Analyst Intern
+  * Disciplined Growth Investors
 
   
 Skills
@@ -32,11 +45,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+# Talks
+# ======
+#  <ul>{% for post in site.talks reversed %}
+#    {% include archive-single-talk-cv.html  %}
+#  {% endfor %}</ul>
   
 Teaching
 ======
