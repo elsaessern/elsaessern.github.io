@@ -24,7 +24,7 @@ For a finite subset of our square lattice (let's say M rows x N columns), we imp
 <img src='/images/6Vex.png' style="width:500px;height:400px;">
 
 Now consider a horizontal row of the lattice and the adjacent horizontal and vertical edges. For each edge $$i$$, associate a 'spin' (different from the quantum spin we consider in the XXZ spin chain) 
-such that $$$\mu_i=+1$$$ if the arrow is pointing up $$(\uparrow)$$ or to the right $$(\rightarrow)$$ and $$\mu_i=-1$$ if the arrow is pointing down $$(\downarrow)$$ or to the left $$(\downarrow)$$. 
+such that $$\mu_i=+1$$ if the arrow is pointing up $$(\uparrow)$$ or to the right $$(\rightarrow)$$ and $$\mu_i=-1$$ if the arrow is pointing down $$(\downarrow)$$ or to the left $$(\downarrow)$$. 
 Let $$\mathbf{\alpha}=\{\alpha_1,\ldots,\alpha_N\}$$ be the spins on the lower row of vertical edges, $$\mathbf{\beta}=\{\beta_1,\ldots,\beta_N\}$$ be the spins on the upper row of vertical edges, and $$\mathbf{\mu}=\{\mu_1,\ldots,\mu_N\}$$ be the spins on the horizontal edges. Note that the boundary conditions imply that $$\alpha_{N+1}=\alpha_1$$ and similarly for $$\beta$$ and $$\mu$$. In terms of spins, we define the weights of local configurations in the following notation $$w(\mu, \alpha \mid \beta, \mu')$$ where $$\mu$$ is the horizontal arrow to the left of the vertex, $$\alpha$$ is the vertical arrow below the vertex, $$\beta$$ is the vertical arrow above the vertex, and $$\mu'$$ is the horizontal arrow to the right of the vertex. Denoting $$+1$$ spin value by $$+$$ and $$-1$$ spin value by $$-$$, we have the local weights
 
 $$\begin{equation} 
