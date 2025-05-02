@@ -1,5 +1,5 @@
 ---
-title: 'Intro to the Bethe Ansatz and ASEP'
+title: 'Intro to the Asymmetric Simple Exclusion Process (ASEP) Pt. 1'
 date: 2025-01-10
 permalink: /posts/2025/01/blog-post-ASEP/
 tags:
@@ -8,9 +8,9 @@ tags:
   - Integrable Probability
 ---
 
-work in progress
+A brief introduction to the asymmetric simple exclusion process (ASEP) and the forward equation for the dynamics. 
 
-The Asymmetric Exclusion Process
+The Asymmetric Simple Exclusion Process
 ======
 
 Consider a chain of particles on a discrete ring (see figure 1) which move left and right with probabilities \\(q\\) and \\(p\\), respectively, with \\(p+q=1.\\) Each particle on its own is a random walker, but what happens when two particles encounter the same lattice site? In defining this model, one can come up with several different kinds of interaction rules. Perhaps a particle moving into the occupied site is a bully and pushes the occupying particle over into the neighboring site. Maybe the particles coexist and  sit together on the same site. It could be that the particles merge into a single particle. The possibilities are endless, with each yielding its own unique set of questions. In this post, we will be discussing a **simple exclusion process**, where a particle is prevented from moving into an occupied site. In particular, our jumping rates will be unequal (\\(p\neq q\\)), giving us the name: the **Asymmetric Simple Exclusion Process (ASEP)**. 
@@ -78,10 +78,9 @@ $$
 \end{split}
 $$
 
-where the sum is over all \\( N \\) particles. Now, if we can solve the forward equation exactly and satisfy the initial condition, then we have the unique probability function which describes our entire system. To do this, though, we will use an equivalent formalism which splits our forward equation into a 'free' part which contains the non-interaction of particles, and a 'boundary' condition which contains the interacting component.  
+where the sum is over all \\( N \\) particles. Now, if we can solve the forward equation exactly and satisfy the initial condition, then we have the unique probability function which describes our entire system. To do this, though, we will use an equivalent formalism which splits our forward equation into a 'free' part which contains the non-interaction of particles, and a 'boundary' condition which contains the interacting component. This will lead us to the famous Bethe Ansatz, which will be described in part 2!
 
-The free equation
-------
+
 
 
 
