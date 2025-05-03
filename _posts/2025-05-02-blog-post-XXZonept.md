@@ -33,7 +33,9 @@ $$\begin{equation}
 \end{equation}$$
 
 where $$|\Psi(t)\rangle $$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins & up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with \mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenfunctions $$|\Psi(t)\rangle$$ such that 
-  \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle  = E |\Psi(t)\rangle
+  
 $$\begin{equation}
+\frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle  = E |\Psi(t)\rangle
+\end{equation}$$
 
-with $$E$$ the respective eigenvalues.
+with $$E$$ the respective eigenvalues. 
