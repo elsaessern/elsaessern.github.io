@@ -1,7 +1,7 @@
 ---
 title: 'Towards an exact expression for the XXZ's one-point function'
 date: 2025-05-02
-permalink: /posts/2025/05/blog-post-XXZonept/
+permalink: /posts/2025/01/blog-post-XXZonept/
 tags:
   - XXZ
   - Bethe Ansatz
