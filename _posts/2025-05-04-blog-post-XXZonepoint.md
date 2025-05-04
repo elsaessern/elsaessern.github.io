@@ -6,7 +6,6 @@ tags:
   - XXZ
   - Bethe Ansatz
   - Integrable Probability
-  - KPZ
 ---
 
 Some observables from the XXZ spin-1/2 chain have shown KPZ behavior, but it is not entirely clear if the model lies within the KPZ universality class. Of particular interest for us is the one-point function, for which we aim to get an exact expression that is amenable to asymptotic analysis. This content is based on joint work with Axel Saenz Rodriguez. 
