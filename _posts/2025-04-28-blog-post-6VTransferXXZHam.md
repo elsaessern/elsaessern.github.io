@@ -4,7 +4,7 @@ date: 2025-04-28
 permalink: /posts/2025/01/blog-post-XXZ6Vpt2/
 tags:
   - XXZ
-  - Bethe Ansatz
+  - Bethe Ansatz 
   - Six Vertex
   - Integrable Probability
 ---
