@@ -74,7 +74,13 @@ $$\begin{equation}
 \rho(x,t) = \sum_{\vec{x}\in\mathcal{X}(x)}\mathbb{P}(|\Psi(t)\rangle = |\vec{x}\rangle). 
 \end{equation}$$ 
 
-Now it's possible to due the brute for computation with a computer. We have done this with our conjectured $$u$$ and $$\ell$$ functions[^2], which you can see examples of in the following plots 
+Now it's possible to due the brute for computation with a computer. We have done this with our conjectured $$u$$ and $$\ell$$ functions[^2], which you can see an example of in the following plots for a ring of lenght 21, 2 up-spins, and $$\Delta=0.13$$. 
+
+<img src='/images/OneptL21N4d13.png' style="width:400px;height:400px;">
+<img src='/images/OneptL21N4d.png' style="width:400px;height:400px;">
+
+As it currently stands, however, this brute force computation with the current formula requires summing over $$L-1$$ choose $$N-1$$ configurations, and the current $$\ell$$ and $$u$$ functions sum over all permutations in $$S_N$$ which adds $$(N!)^4$$ to the complexity due to the magnitude squared in the probability function. So brute force computation is very expensive if we want to increase the scale of our system (which we do). Hence, some serious simplification is needed, not just for improving simulation capability, but also if we want an expression that is amenable to asymptotic analysis. An expression in that sense is crucial to showing rigorous connections to the KPZ universality class (i.e. Tracy-Widom fluctuations). 
+
 
 
 
