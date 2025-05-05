@@ -32,7 +32,7 @@ $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle 
 \end{equation}$$
 
-where $$|\Psi(t)\rangle$$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins & up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with $$\mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenvectors, $$|\Psi(t)\rangle$$, of $$\mathcal{H}$$ such that 
+where $$|\Psi(t)\rangle$$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins and up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with $$\mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenvectors, $$|\Psi(t)\rangle$$, of $$\mathcal{H}$$ such that 
   
 $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle  = E |\Psi(t)\rangle
