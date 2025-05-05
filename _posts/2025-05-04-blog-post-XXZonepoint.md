@@ -32,7 +32,11 @@ $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle 
 \end{equation}$$
 
-where $$|\Psi(t)\rangle$$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins and up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with $$\mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenvectors, $$|\Psi(t)\rangle$$, of $$\mathcal{H}$$ such that 
+where $$|\Psi(t)\rangle$$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin  
+configurations with a fixed number of down-spins and up-spins. That is, $$\mathbb{H}\subset 
+\mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with $$\mathbb{V}=\mathrm{Span}\{|\uparrow\rangle,
+|\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian
+$$\mathcal{H}$$. That is, we want eigenvectors, $$|\Psi(t)\rangle$$, of $$\mathcal{H}$$ such that
   
 $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle  = E |\Psi(t)\rangle
@@ -44,7 +48,15 @@ $$\begin{equation}
 |\xi\rangle = |\xi_1,\ldots,\xi_N \rangle = \sum_{x\in\mathcal{X}} u(\xi,x) |x\rangle
 \end{equation}$$
 
-where $$\mathcal{X}=\{(x_1 < \cdots < x_N) \mid x_i \in \mathbb{Z} / L \mathbb{Z} \} $$ is the configuration space with the $$x_i$$'th entry denoting the location of the $$i$$'th up-spin, and we denote the corresponding eigenvalues $$E(\xi)$$. Due to the periodic boundary conditions of the ring, the Bethe coordinates must satisfy a system of algebraic equations which we call the Bethe equations [^1]. We will denote the set of all $$\xi$$'s (eigenvectors) which are solutions to the Bethe equations by $$\Xi$$ (up to permutation of the entries $$\xi=(\xi_1,\ldots,\xi_N)$$. A priori it is not clear that these are a complete basis for $$\mathbb{H}$$. To do this we shall write a complete basis we do know, the set of indicator functions on configurations, in terms of the Bethe vectors. More specifically, we conjecture a function $$ell(x,\xi)$$ such that 
+where $$\mathcal{X}=\{(x_1 < \cdots < x_N) \mid x_i \in \mathbb{Z} / L \mathbb{Z} \} $$ is the
+configuration space with the $$x_i$$'th entry denoting the location of the $$i$$'th up-spin, and we
+denote the corresponding eigenvalues $$E(\xi)$$. Due to the periodic boundary conditions of the ring,
+the Bethe coordinates must satisfy a system of algebraic equations which we call the Bethe equations
+[^1]. We will denote the set of all $$\xi$$'s (eigenvectors) which are solutions to the Bethe
+equations by $$\Xi$$ (up to permutation of the entries $$\xi=(\xi_1,\ldots,\xi_N)$$. A priori it is
+not clear that these are a complete basis for $$\mathbb{H}$$. To do this we shall write a complete
+basis we do know, the set of indicator functions on configurations, in terms of the Bethe vectors.
+More specifically, we conjecture a function $$ell(x,\xi)$$ such that 
 
 $$\begin{equation}
 |x\rangle = \sum_{\xi \in \Xi} \ell(x,\xi) |\xi\rangle
@@ -79,13 +91,13 @@ Now it's possible to due the brute for computation with a computer. We have done
 <img src='/images/OneptL21N4d13.png' style="width:400px;height:400px;">
 <img src='/images/OneptL21N4d.png' style="width:400px;height:400px;">
 
-As it currently stands, however, this brute force computation with the current formula requires summing over $$L-1$$ choose $$N-1$$ configurations, and the current $$\ell$$ and $$u$$ functions sum over all permutations in $$S_N$$ which adds $$(N!)^4$$ to the complexity due to the magnitude squared in the probability function. So brute force computation is very expensive if we want to increase the scale of our system (which we do). Hence, some serious simplification is needed, not just for improving simulation capability, but also if we want an expression that is amenable to asymptotic analysis. An expression in that sense is crucial to showing rigorous connections to the KPZ universality class (i.e. Tracy-Widom fluctuations). 
-
-
-
-
-
-
+As it currently stands, however, this brute force computation with the current formula requires
+summing over $$L-1$$ choose $$N-1$$ configurations, and the current $$\ell$$ and $$u$$ functions sum
+over all permutations in $$S_N$$ which adds $$(N!)^4$$ to the complexity due to the magnitude squared
+in the probability function. So brute force computation is very expensive if we want to increase the
+scale of our system (which we do). Hence, some serious simplification is needed, not just for
+improving simulation capability, but also if we want an expression that is amenable to asymptotic
+analysis. An expression in that sense is crucial to showing rigorous connections to the KPZ universality class (i.e. Tracy-Widom fluctuations). 
 
 
 
