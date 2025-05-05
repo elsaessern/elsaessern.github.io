@@ -9,7 +9,7 @@ tags:
   - KPZ
 ---
 
-Some observables from the XXZ spin-1/2 chain have shown KPZ behavior, but it is not entirely clear if the model lies within the KPZ universality class. Of particular interest for us is the one-point function, for which we aim to get an exact expression that is amenable to asymptotic analysis. This content is based on joint work with Axel Saenz Rodriguez. 
+Some observables from the XXZ spin-1/2 chain have shown KPZ behavior, but it is not entirely clear if the model lies within the KPZ universality class. Of particular interest for us is the one-point function, for which we aim to get an exact expression that is amenable to asymptotic analysis. This content and informal discussion is based on joint work with Axel Saenz Rodriguez. 
 
 XXZ on the ring
 -------
@@ -56,8 +56,25 @@ $$\begin{equation}
 \mathbb{1}(x=y) = \sum_{\xi\in\Xi} \ell(y,\xi) u(\xi,x)
 \end{equation}$$
 
-since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle. Then for an initial configuration $$|y\rangle$$, we write the solution to the Schrodinger equations
+since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle. Then for an initial configuration $$|y\rangle$$, we can write the solution to the Schrodinger equation
 
+$$\begin{equation}
+|\Psi(t)\rangle = \sum_{x\in\mathcal{X}}\left(\sum_{\xi\in\Xi}\ell(y,\xi)u(\xi,x) e^{-i t E(\xi)} \right) |x\rangle
+\end{equation}$$
+
+and by some assumptions we didn't state and quantum mechanics yada yada (I did warn you about informality), the probability function for configurations reads
+
+$$\begin{equation}
+\mathbb{P}(|\Psi(t)\rangle = |x\rangle) = \langle x \mid \Psi(t) \rangle \langle \Psi(t) \mid x \rangle = \left| \sum_{\xi\in\Xi}\ell(y,\xi)u(\xi,x)e^{-itE(\xi)}\right|^2. 
+\end{equation}$$
+
+With this probability function, we can then compute the one-point function (i.e. the probability of finding an up-spin at a specific location) by summing the probability function over all states containing an up-spin at the indicated site. That is
+
+$$\begin{equation}
+\rho(x,t) = \sum_{\vec{x}\in\mathcal{X}(x)}\mathbb{P}(|\Psi(t)\rangle = |\vec{x}\rangle). 
+\end{equation}$$ 
+
+Now it's possible to due the brute for computation with a computer. We have done this with our conjectured $$u$$ and $$\ell$$ functions[^2], which you can see examples of in the following plots 
 
 
 
@@ -68,6 +85,7 @@ since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle. Then for an init
 
 [^1]: The Bethe Equations are often avoided by considering the infinite line ($$\mathbb{Z}$$) instead of the ring. The reason for doing this is to avoid the issues of completeness of the Bethe ansatz. That is, proving that the Bethe vectors are a complete basis for the vector space $$\mathbb{H}$$. 
 
+[^2]: I do not give the explicit functions since this work is still in-progress. 
 
 
 
