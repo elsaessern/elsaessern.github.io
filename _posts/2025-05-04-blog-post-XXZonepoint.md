@@ -68,7 +68,8 @@ $$\begin{equation}
 \mathbb{1}(x=y) = \sum_{\xi\in\Xi} \ell(y,\xi) u(\xi,x)
 \end{equation}$$
 
-since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle$$. Then for an initial configuration $$|y\rangle$$, we can write the solution to the Schrodinger equation
+since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle$$. Then for an initial configuration $$|y\rangle$$, we can
+write the solution to the Schrodinger equation
 
 $$\begin{equation}
 |\Psi(t)\rangle = \sum_{x\in\mathcal{X}}\left(\sum_{\xi\in\Xi}\ell(y,\xi)u(\xi,x) e^{-i t E(\xi)} \right) |x\rangle
