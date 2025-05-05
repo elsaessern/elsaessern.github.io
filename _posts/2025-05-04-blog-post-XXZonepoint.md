@@ -32,10 +32,42 @@ $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle 
 \end{equation}$$
 
-where $$|\Psi(t)\rangle $$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins & up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with \mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenfunctions $$|\Psi(t)\rangle$$ such that 
+where $$|\Psi(t)\rangle $$ is an element of the Hilbert space $$\mathbb{H}$$ containing the spin configurations with a fixed number of down-spins & up-spins. That is, $$\mathbb{H}\subset \mathbb{V}_L = \mathbb{V}^{\otimes L}$$ with \mathbb{V}=\mathrm{Span}\{|\uparrow\rangle, |\downarrow\rangle\}$$. Our aim is have a complete spectral decomposition of the Hamiltonian $$\mathcal{H}$$. That is, we want eigenvectors, $$|\Psi(t)\rangle$$, of $$\mathcal{H}$$ such that 
   
 $$\begin{equation}
 \frac{d}{dt} |\Psi(t)\rangle = \mathcal{H} |\Psi(t)\rangle  = E |\Psi(t)\rangle
 \end{equation}$$
 
-with $$E$$ the respective eigenvalues. 
+with $$E$$ the respective eigenvalue. Via the coordinate Bethe ansatz, we can construct eigenvectors with the change of coordinates
+
+$$\begin{equation}
+|\xi\rangle = |\xi_1,\ldots,\xi_N \rangle = \sum_{x\in\mathcal{X}} u(\xi,x) |x\rangle
+\end{equation}$$
+
+where $$\mathcal{X}=\{(x_1 < \cdots < x_N) \mid x_i \in \mathbb{Z} / L \mathbb{Z} \} $$ is the configuration space with the $$x_i$$'th entry denoting the location of the $$i$$'th up-spin, and we denote the corresponding eigenvalues $$E(\xi)$$. Due to the periodic boundary conditions of the ring, the Bethe coordinates must satisfy a system of algebraic equations which we call the Bethe equations [^1]. We will denote the set of all $$\xi$$'s (eigenvectors) which are solutions to the Bethe equations by $$\Xi$$ (up to permutation of the entries $$\xi=(\xi_1,\ldots,\xi_N)$$. A priori it is not clear that these are a complete basis for $$\mathbb{H}$$. To do this we shall write a complete basis we do know, the set of indicator functions on configurations, in terms of the Bethe vectors. More specifically, we conjecture a function $$ell(x,\xi)$$ such that 
+
+$$\begin{equation}
+|x\rangle = \sum_{\xi \in \Xi} \ell(x,\xi) |\xi\rangle
+\end{equation}$$
+
+which is equivalent to 
+
+$$\begin{equation}
+\mathbb{1}(x=y) = \sum_{\xi\in\Xi} \ell(y,\xi) u(\xi,x)
+\end{equation}$$
+
+since $$|x\rangle = \sum_{y\in \mathcal{X}}\mathbb{1}|y\rangle. Then for an initial configuration $$|y\rangle$$, we write the solution to the Schrodinger equations
+
+
+
+
+
+
+
+
+
+[^1]: The Bethe Equations are often avoided by considering the infinite line ($$\mathbb{Z}$$) instead of the ring. The reason for doing this is to avoid the issues of completeness of the Bethe ansatz. That is, proving that the Bethe vectors are a complete basis for the vector space $$\mathbb{H}$$. 
+
+
+
+
