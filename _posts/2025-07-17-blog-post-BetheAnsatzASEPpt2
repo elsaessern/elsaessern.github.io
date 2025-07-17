@@ -29,7 +29,7 @@ with initial condition \\( u(X;0) = \delta(X=y) \\). Now the approach we take wi
 This post will focus on the case of \\( N‎ = 2 \\) particles, since it is the most constructive.
 First we consider \\( u(X;t) \\) with extended domain \\( \tilde{\mathcal{X}} \\). The two possible cases for the forward equation are illustrated below. 
 
-
+<img src='/images/2ParticleASEPcases.jpeg' style="width:250px;height:200px;">
 
 Subtracting (2) from (1) we obtain 
 
