@@ -29,7 +29,7 @@ with initial condition \\( u(X;0) = \delta(X=y) \\). Now the approach we take wi
 This post will focus on the case of \\( N‎ = 2 \\) particles, since it is the most constructive.
 First we consider \\( u(X;t) \\) with extended domain \\( \tilde{\mathcal{X}} \\). The two possible cases for the forward equation are illustrated below. 
 
-<img src='/images/2ParticleASEPcases.jpeg' style="width:250px;height:200px;">
+<img src='/images/2ParticleASEPcases.jpeg' style="width:350px;height:300px;">
 
 Subtracting (2) from (1) we obtain 
 
@@ -77,7 +77,7 @@ with \\( z_1, z_2 \in \mathbb{C} \\) and the eigenvalue becomes a sum of eigenva
 
 $$\lambda = (pz_1^{-1} + qz_2 - 1) + (pz_2^{-1} + qz_2 -1) = \lambda_1 + \lambda_2. $$
 
-So for \\( N‎ = 2 \\) we have eigenfunctions and eigenvalues for the free equation! So we’re done? Heck no! What is the coefficient \\( A_{21} \\)? What about \\(z_1, z_2 \\) ? And we can’t forget about \\(\phi_Y(t)\\), what is the coefficient \\( \alpha(Y) \\)? And we haven’t even touched the case of a general particle number \\( N \\)! Luckily for us, we still have tools at our disposal that we haven’t used; namely the boundary condition, periodicity of the lattice, and initial condition. Stay tuned for part 3! 
+So for \\( N‎ = 2 \\) we have eigenfunctions and eigenvalues for the free equation! So we’re done? Heck no! What is the coefficient \\( A_{21} \\)? What about \\(z_1, z_2 \\) ? And we can’t forget about \\(\phi_Y(t)\\), what is the coefficient \\( \alpha(Y) \\)? And we haven’t even touched the case of a general particle number \\( N \\). Luckily for us, we still have tools at our disposal that we haven’t used; namely the boundary condition, periodicity of the lattice, and initial condition. Stay tuned for part 3! 
 
 
 
