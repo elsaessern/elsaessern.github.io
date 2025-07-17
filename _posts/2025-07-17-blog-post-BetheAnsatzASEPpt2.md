@@ -8,7 +8,7 @@ tags:
   - Integrable Probability
 ---
 
-In this post I continue the discussion from ([link here pt 1]) on the ASEP and give the ‘Coordinate Bethe Ansatz’ approach to finding an explicit solution to the forward equation. In part 1, we derived the following forward equation for the probability function of the ASEP, 
+In this post I continue the discussion from [this post](https://elsaessern.github.io/posts/2025/01/blog-post-ASEP/) on the ASEP and introduce the ‘Coordinate Bethe Ansatz’ approach to finding an explicit solution to the forward equation in the case of two particles. In part 1, we derived the following forward equation for the probability function of the ASEP, 
 
 $$
 \begin{split}
