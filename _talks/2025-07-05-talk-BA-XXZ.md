@@ -10,4 +10,4 @@ location: "Angers, France"
 
 I gave an 8 minute talk at the IP3 conference (Interplay between interacting particle systems and integrable probability)
 at Université Angers on [joint work with Axel Saenz and Eric Corwin recently posted on arXiv](https://arxiv.org/abs/2506.14171).
-You can find the slides from the talk [here](elsaessern.github.io/files/IP3ShortTalk-Elsaesser.pdf)
+You can find the slides from the talk [here](files/IP3ShortTalk-Elsaesser.pdf)
