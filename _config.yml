@@ -34,7 +34,7 @@ author:
   email            : "elsaessn@oregonstate.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/search/math-ph?searchtype=author&query=Elsaesser,+N"
   googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
   orcid            : #"http://orcid.org/yourorcidurl"
