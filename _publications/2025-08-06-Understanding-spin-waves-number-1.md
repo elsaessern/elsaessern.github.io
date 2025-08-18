@@ -6,7 +6,7 @@ permalink: /publication/2025-08-06-Understanding-spin-waves-number-1
 excerpt: 'We present our work towards developing a comprehensive approach to understanding spin-wave (SW) dispersion in 2D van der Waals (vdW) magnets, combining steady-state and time-resolved spectroscopy with electronic structure calculations and mathematical modeling of SW propagation.'
 date: 2025-08-06
 venue: SpringerNature MRS Advances
-paperurl: 
+paperurl: https://rdcu.be/ezDAO
 citation: Aislinn, P.J., Winchell, A.J., Lambertson, E.R. et al. Understanding spin waves in 2D magnets: A combined experimental, computational, and mathematical theory approach. MRS Advances (2025).
 ---
 
