@@ -7,7 +7,6 @@ date: 2025-06-17
 venue: 'ArXiv'
 paperurl: '[https://pubs.acs.org/doi/full/10.1021/jacs.5c11454](https://arxiv.org/abs/2506.14171)'
 citation: 'arXiv:2506.14171'
-DOI: 'https://doi.org/10.48550/arXiv.2506.14171'
 ---
 
 Link: [https://arxiv.org/abs/2506.14171](https://arxiv.org/abs/2506.14171)
