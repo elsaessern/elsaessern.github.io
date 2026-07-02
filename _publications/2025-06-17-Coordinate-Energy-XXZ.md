@@ -1,6 +1,6 @@
 ---
 title: "Coordinate-energy transformation and the one-point function for the Heisenberg-Ising XXZ spin-1/2 chain on the ring"
-collection: preprints
+collection: publications
 category: preprints
 permalink: /publication/2025-06-17-Coordinate-Energy-XXZ
 date: 2025-06-17
